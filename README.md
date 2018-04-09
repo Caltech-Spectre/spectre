@@ -67,7 +67,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-Navigate to the url specified above in your browser. You should see a message indicating that everything is working.
+Navigate to the [url](http://127.0.0.1:8000/) specified above in your browser. You should see a message indicating that everything is working.
 
 ### Django tutorial
 
