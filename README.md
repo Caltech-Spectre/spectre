@@ -4,11 +4,11 @@
 
 ### Install pyenv
 
-[Pyenv](https://github.com/pyenv/pyenv) is a package that makes it easier to work with Python virtual environments. Follow the instructions on the github README for installing.
+[Pyenv](https://github.com/pyenv/pyenv) is a package that makes it easier to work with Python virtual environments. Follow the [installation instructions](https://github.com/pyenv/pyenv#installation) in the README.
 
 ### Install pyenv-virtualenv
 
-[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a package to help create and activate Python virtual environments within pyenv. Follow the instructions on the github README for installing.
+[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a package to help create and activate Python virtual environments within pyenv. Follow the [installation instructions](https://github.com/pyenv/pyenv-virtualenv#installation) in the README.
 
 ### Install python 3
 
