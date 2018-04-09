@@ -69,6 +69,8 @@ Quit the server with CONTROL-C.
 
 Navigate to the url specified above in your browser. You should see a message indicating that everything is working.
 
+### Django tutorial
 
+If you'd like to get started with Django, visit the [tutorial](https://docs.djangoproject.com/en/2.0/intro/tutorial01/).
 
 
