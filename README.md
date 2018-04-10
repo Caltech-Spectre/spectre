@@ -6,9 +6,27 @@
 
 [Pyenv](https://github.com/pyenv/pyenv) is a package that makes it easier to work with Python virtual environments. Follow the [installation instructions](https://github.com/pyenv/pyenv#installation) in the README.
 
+Using [Homebrew](brew.sh) is the easiest way to install. Install brew with:
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+Then install pyenv:
+
+```
+brew install pyenv
+```
+
 ### Install pyenv-virtualenv
 
 [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a package to help create and activate Python virtual environments within pyenv. Follow the [installation instructions](https://github.com/pyenv/pyenv-virtualenv#installation) in the README.
+
+It is easiest to install with [Homebrew](brew.sh):
+
+```
+brew install pyenv-virtualenv
+```
 
 ### Install python 3
 
