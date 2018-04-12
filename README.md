@@ -18,6 +18,16 @@ Then install pyenv:
 brew install pyenv
 ```
 
+#### Autoload pyenv
+
+Pyenv has to be initialized when you open a terminal, so you need to add a few things to your .bash_profile file:
+
+```
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
+```
+
 ### Install pyenv-virtualenv
 
 [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a package to help create and activate Python virtual environments within pyenv. Follow the [installation instructions](https://github.com/pyenv/pyenv-virtualenv#installation) in the README.
@@ -26,6 +36,21 @@ It is easiest to install with [Homebrew](brew.sh):
 
 ```
 brew install pyenv-virtualenv
+```
+
+#### Autoload pyenv-virtualenv
+
+Pyenv-virtualenv also has to be initialized when you open a terminal, so you need to add a few things to your .bash_profile file:
+
+```
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
+exec "$SHELL"
+```
+
+### Install Mac command line tools
+
+```
+xcode-select --install
 ```
 
 ### Install python 3
