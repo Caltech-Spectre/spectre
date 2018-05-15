@@ -1,0 +1,168 @@
+{% load static %}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN">
+<html>
+	<head>
+		
+		<!-- One needs one of them little icons at the top, and I got one. -->
+		<link rel="shortcut icon" href="{% static 'library/favicon.ico' %}" >
+		<link rel="icon" type="image/gif" href="{% static 'library/animated_favicon1.gif' %}" >
+		
+		<!-- a title -->
+		<title>S.P.E.C.T.R.E.</title>
+		
+		<!-- a style sheet -->
+		<link rel="stylesheet" href="{% static 'library/mainPage.css' %}" />
+	</head>
+	<body>
+	
+		<!-- The whole body of this page is in this div, a banner, so it's black with a silver border -->
+		<div class="banner">
+		
+			<!-- the logo, in a div, so you can't drag it like an image, which ruins the effect. -->
+			<div class="spectrelogodiv">
+                <img src="{% static 'library/spectreLogo.png' %}">
+			</div>
+			
+			<!-- the title, as it appears on the page -->
+			<div class="spectretitle">
+				We Are S.P.E.C.T.R.E.
+			</div>
+			<div class="spectresubtitle">
+				The Caltech Science Fiction Club
+			</div>
+			<br />
+			
+			<!-- I want a horizontal line, with two buttons under it at either end, one for the database, and one to join spectre -->
+			<div>
+				<hr class="seperator" />
+				<div class="left">
+					<input type="button" class="btn" onclick="parent.location='/spectre/login/'" value="Database" />
+				</div>
+				<div class="right">
+					<input type="button" class="btn" onclick="parent.location='/spectre/user/add/'" value="Join Us" />
+				</div>
+			</div>
+			<div class="spacer">
+			</div>
+			
+			<!-- and now, the main article -->
+						<div>
+				<div class="spectresection">
+					Why Spectre?
+				</div>
+				<div class="spectretext">
+					Because a university thoroughly dedicated to science wouldn't be truly complete without a Science Fiction Club!
+				</div>
+				<br />
+				<div class="spectresection">
+
+					Where is Spectre?
+				</div>
+				<div class="spectretext">
+					Spectre is located in SAC 22; the room is on combination 42. Presently, books may be checked out using the computer. Checkout instructions are on the side of the monitor.
+				</div>
+				<br />
+				<div class="spectresection">
+					What is the Spectre combo?
+				</div>
+				<div class="spectretext">
+
+					42 (press both at the same time)
+				</div>
+				<br />
+				<div class="spectresection">
+					Library
+				</div>
+				<div class="spectretext">
+					The main purpose of Spectre is to provide Caltech with quality speculative fiction. We have a heavy focus on science fiction but also offer selections from fantasy, historical fiction, alternative histories, relevant nonfiction, and various other genres.
+				</div>
+				<br />
+
+				<div class="spectretext">
+					The library is presently not fully unpacked after our recent move from SAC 54. We need your help. Contact <a href="mailto:Spectre-admin@ugcs.caltech.edu">Spectre-admin</a> to help.
+				</div>
+				<br />
+				<div class="spectresection">
+					Collection
+				</div>
+				<div class="spectretext">
+
+					You may search and view our full catalogue of books in our <a href="/spectre/login/">database</a>.
+				</div>
+				<br />
+				<div class="spectresection">
+					Club
+				</div>
+				<div class="spectretext">
+					We're not just a library; we also hold social events. Our calendar is accessible via <a href="http://www.google.com/calendar/render?gsessionid=7DmPEK-PKnQ#">Google Calendar</a>.
+				</div>
+
+				<br />
+				<div class="spectretext">
+					Any person in the Caltech community is entitled to Spectre membership. Joining is currently ill-defined, but you can start by subscribing to the mailing list (currently, zero traffic, planned low traffic) at <a href="https://hermes.ugcs.caltech.edu/cgi-bin/mailman/listinfo/spectrum">https://hermes.ugcs.caltech.edu/cgi-bin/mailman/listinfo/spectrum</a>. Club membership is free for you, but it helps us get funding.
+				</div>
+				<br />
+				<div class="spectretext">
+					We hope to hold at least one Spectre event per term, such as showing a particularly good or particularly bad speculative fiction film, attending a convention, or holding a reading of the Eye of Argon.
+				</div>
+				<br />
+
+				<div class="spectretext">
+					You do not need to be a member to check out or read books, you just need a library account. This is also free for you, and also gets us funding.
+				</div>
+				<br />
+				<div class="spectresection">
+					Volunteer
+				</div>
+				<div class="spectretext">
+					We need assistance alphabetizing our books. Detailed instructions can be found <a href="http://spectre.caltech.edu/SPECTRE_moving_in_instructions/SPECTRE_moving_in_instructions.pdf">here</a>. Contact <a href="mailto:spectre-admin@caltech.edu">spectre-admin</a> for details. 
+				</div>
+
+				<br />
+				<div class="spectretext">
+					The more help we have, the sooner we open.
+				</div>
+				<br />
+				<div class="spectresection">
+					Donations and Purchases
+				</div>
+				<div class="spectretext">
+					Spectre is happy to accept science fiction and fantasy books from people who are not Caltech undergrads, as well as alumni who have been graduated for at least one year. We institute this waiting period to ensure that people don't give away treasured possessions out of irrational emotions around graduation. Exceptions will be made for anyone who can convince us they don't want to lug books across the country with them.
+				</div>
+
+				<br />
+				<div class="spectretext">
+					We are also willing to negotiate purchases or exchanges if you have books we may be interested in, and have a reasonable budget for buying new materials. Contact us for more information.
+				</div>
+				<br />
+				<div class="spectresection">
+					Club officers
+				</div>
+				<div class="spectretext">
+					Spectre is co-ruled by:
+					<UL>
+
+					    <LI>Lauren Gilbert
+					    <UL><LI>lgilbert@caltech.edu</LI></UL>
+					    <LI>Matthias Raives
+					    <UL><LI>mraives@caltech.edu</LI></UL>
+<LI>Ian Koss</LI>
+<UL><LI>ikoss@caltech.edu</LI></UL>
+					</UL>
+				</div>
+				<br />
+				<div class="spectretext">
+					With our powers combined, <a href="mailto:spectre-admin@ugcs.caltech.edu">WE ARE SPECTRE</a>!
+				</div>
+
+				<br />
+				<div class="spectretext">
+					Also in at the ground floor were Daniel Rowlands and Eric Chin. Thanks to our friends who have helped make us great: Aliza Malz, Randall Wald, Jamie Jackson, Glenn Wagner, Alexander Rapp, Cathy Douglass, Alex Roper, Jason Cerundolo, Marty Rosenberg, Jen Greco, Isaac Sheff and Peter Polko.
+				</div>
+				<br />
+			</div>
+
+		</div>
+	</body>
+</html>
