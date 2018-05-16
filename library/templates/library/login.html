@@ -5,7 +5,7 @@
         <form action="{% url 'login' %}" method="POST" name="loginForm">
             Slide your Caltech ID card or type your ID number:
             <!-- the joinus button: actually just a link to the join us page -->
-            <input name="filter" />
+            <input name="filter" autocomplete="off"/>
             <input type="Submit" value="Login" class="btn"/>
             <input name="linkonly" class="btn" type="button" value="Create Account" onClick="parent.location='/user/add/'" />
         </form>
