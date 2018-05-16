@@ -1,0 +1,19 @@
+{% extends 'library/base.html' %}
+{% block content %}
+
+    <div id="content">
+        <div>
+            <div class="left">
+                <input type="button" class="btn" onclick="parent.location='/user/'" value="Database" />
+            </div>
+            <div class="right">
+                <input type="button" class="btn" onclick="parent.location='/checkout'" value="Checkout" />
+            </div>
+        </div>
+        <div class="spacer">
+        </div>
+
+    <h2>You've successfully checkout out {{ book.title }}.</h2>
+
+    </div>
+{% endblock %}

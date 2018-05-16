@@ -1,0 +1,24 @@
+{% extends 'library/base.html' %}
+{% block content %}
+
+    <div id="content">
+        <div>
+            <div class="left">
+                <input type="button" class="btn" onclick="parent.location='/user/'" value="Database" />
+            </div>
+        </div>
+        <div class="spacer">
+        </div>
+        <h2>Scan Book</h2>
+
+        <form action="{% url 'checkout' %}" method='get' name="scan_form">
+            Scan book:
+            <input type="text" name="idcode">
+            <input type="submit" name="Search">
+        </form>
+        <script type="text/javascript">
+            document.forms.scan_form.idcode.focus()
+        </script>
+
+    </div>
+{% endblock %}

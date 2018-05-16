@@ -19,9 +19,10 @@
             <!-- pressing the search button calls update_search_books, with the text of the search box for its input -->
             <input type="submit" class="btn1" id="searchButton" name="submit" value="Search"/>
             <!-- the my books out button just skips right ahead to calling get_books_from_server with the search xml and appropriate input -->
-            <input type="button" class="btn1" id="getMyBooksButton" name="submit" value="My Books Out" onclick="javascript:get_books_from_server('/spectre/book/search/xml/','userid={{userid}}');"/>
+            <input type="button" class="btn1" id="getMyBooksButton" name="submit" value="My Books Out" onclick="parent.location='/user/books/'"/>
             <!-- the done button just redirects to the login page -->
 {#            <a href="{% url 'logout' %}">#}
+            <input type='button' value="Scan book" onClick="parent.location='/checkout/'"/>
                 <input type='button' value="Logout" onClick="parent.location='/logout/'"/>
 {#            </a>#}
             <!-- it's nice to know how much you've loadaed and how much you've yet to load -->
@@ -64,7 +65,11 @@
                     </td>
                     <td>{{book.author}}</td>
                     <td><a href="{% url 'book' %}?{% if book.idcode %}idcode={{book.idcode}}{% else %}id={{ book.id }}{% endif %}" class="book_link">{{book.title}}</a></td>
-                    <td></td>
+                    <td>
+                        {% if book.bloan %}
+                            Checked out
+                        {% endif %}
+                    </td>
                 </tr>
             {% endfor %}
         </table>

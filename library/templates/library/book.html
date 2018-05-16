@@ -51,6 +51,8 @@
 
     {% if not book.bloan %}
         <button onclick="parent.location='/checkout?id={{ book.id }}'">Checkout</button>
+    {% else %}
+        <button onclick="parent.location='/checkin?id={{ book.id }}'">Check-in</button>
     {% endif %}
 
     </div>

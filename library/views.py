@@ -1,6 +1,6 @@
 from datetime import datetime, date
 
-from django.shortcuts import get_object_or_404, render, redirect
+from django.shortcuts import get_object_or_404, render, redirect, reverse
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt, csrf_protect
 from django.db.models import Q
@@ -20,7 +20,7 @@ def filterBooks(filterText):
 #returns a list of users which contain each of the words (substrings separated by spaces) in filterText in either their name or email or cardnum
 def filterUsers(filterText):
     filterList = filterText.split(" ")
-    return User.objects.filter(Q(name__icontains=str(filterText)) | Q(email__icontains=str(filterText)) | Q(cardnum__icontains=filterText))
+    return User.objects.filter(Q(name__icontains=str(filterText)) | Q(email__icontains=str(filterText)) | Q(cardnum=filterText))
 
     for f in filterList:
         if f != None and f != "":
@@ -143,11 +143,61 @@ def addUser(request):
                 this_cardnum = int(this_cardnum)
             except ValueError:
                 return render(request, 'library/addUserTemplate.html', {'error':'DESIGNATION MUST BE A NUMBER', 'name':this_name, 'email':this_email, 'cardnum':this_cardnum})
+
+        users = User.objects.filter(Q(name=this_name)|Q(email=this_email)|(Q(cardnum=this_cardnum)&Q(cardnum__isnull=False)))
+        if len(users) > 0:
+            return redirect('user')
         user = User(name=this_name, email=this_email, cardnum=this_cardnum, created = date.today(), lastactive = date.today())
         user.save()
         return loginPage(request)
     except KeyError:
         return render(request, 'library/addUserTemplate.html', {'error':'', 'name':this_name, 'email':this_email, 'cardnum':this_cardnum})
+
+def checkout(request):
+    userid = request.session.get('userid', None)
+    if not userid:
+        return redirect('/login/')
+
+    id = request.GET.get('id', None)
+    idcode = request.GET.get('idcode', None)
+    if id:
+        book = get_object_or_404(Book, id=id)
+        loan = Loan(lbook=book, luser=User.objects.get(id=userid), date=date.today())
+        loan.save()
+        book.last = date.today()
+        if book.checkouts == None:
+            book.checkouts = 0
+        book.checkouts = book.checkouts + 1
+        book.bloan = loan
+        book.save()
+        return render(request, 'library/checkedout.html', {'book':book})
+    elif idcode:
+        return redirect("{}?idcode={}".format(reverse('book'), idcode))
+    return render(request, 'library/checkout.html')
+
+def checkin(request):
+    userid = request.session.get('userid', None)
+    if not userid:
+        return redirect('/login/')
+
+    id = request.GET.get('id', None)
+    if id:
+        book = get_object_or_404(Book, id=id)
+        loan = Loan.objects.get(lbook=book.id)
+        book.bloan = None
+        book.save()
+        loan.delete()
+    return redirect('user')
+
+
+def my_books(request):
+    userid = request.session.get('userid', None)
+    if not userid:
+        return redirect('/login/')
+    user = User.objects.get(id=userid)
+    loans = Loan.objects.filter(luser=user.id)
+    print(len(loans))
+    return render(request, 'library/my_books.html', {'user':user, 'loans':loans})
 
 
 def showBook(request):
