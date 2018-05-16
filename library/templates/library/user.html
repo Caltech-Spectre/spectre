@@ -1,0 +1,97 @@
+{% extends 'library/base.html' %}
+{% block content %}
+
+    <!-- on the left, a box containing user information and search bar -->
+    <div class="database_controls">
+        <span class="username">
+            Welcome back {{username}}
+        </span>
+        <form action="/user/" method="get" style="margin:0;padding:0;">
+            <!-- if you press return in the search box, it is just like clicking the search button -->
+            <input class="widex" type="search" name='filter' id="txt1"
+                   {% if filter %}
+                    value="{{ filter }}"
+                   {%  endif %}
+            />
+            <script type="text/javascript">
+                document.getElementById('txt1').focus();
+            </script>
+            <!-- pressing the search button calls update_search_books, with the text of the search box for its input -->
+            <input type="submit" class="btn1" id="searchButton" name="submit" value="Search"/>
+            <!-- the my books out button just skips right ahead to calling get_books_from_server with the search xml and appropriate input -->
+            <input type="button" class="btn1" id="getMyBooksButton" name="submit" value="My Books Out" onclick="javascript:get_books_from_server('/spectre/book/search/xml/','userid={{userid}}');"/>
+            <!-- the done button just redirects to the login page -->
+{#            <a href="{% url 'logout' %}">#}
+                <input type='button' value="Logout" onClick="parent.location='/logout/'"/>
+{#            </a>#}
+            <!-- it's nice to know how much you've loadaed and how much you've yet to load -->
+            <div class="search_metrics">
+                <span>Loading: </span>
+                <span id="numberofentries">{{ start }}</span>
+                <span> of <span id="numberofbookstoload">{{ end }}</span>.</span>
+                <span> (out of {{count}} total books) </span>
+            </div>
+        </form>
+    </div>
+    <!-- the book information will go in here, on the right, when you click on a book. -->
+
+    <!-- at the bottom of the banner is a table head, which has all the names of the columns, and their widths, as well as clickable arrows that sort the books by the collumn entries and their inverses -->
+    <div class="tablehead">
+        <table class="fancy" width="100%" id="booktablehead">
+            <tr class="header">
+                <th width="12%">Spectre ID <span class="clickable" onclick="javascript:sortBooks(sortBooksBySpectreID)">&darr;</span> <span class="clickable" onclick="javascript:sortBooks(invert(sortBooksBySpectreID))">&uarr;</span></th>
+                <th width="10%">ID Code <span class="clickable" onclick="javascript:sortBooks(sortBooksByIDCode)">&darr;</span> <span class="clickable" onclick="javascript:sortBooks(invert(sortBooksByIDCode))">&uarr;</span></th>
+                <th width="10%">ISBN <span class="clickable" onclick="javascript:sortBooks(sortBooksByISBN)">&darr;</span> <span class="clickable" onclick="sortBooks(invert(sortBooksByISBN))">&uarr;</span></th>
+                <th width="25%">Author <span class="clickable" onclick="javascript:sortBooks(sortBooksByAuthor)">&darr;</span> <span class="clickable" onclick="javascript:sortBooks(invert(sortBooksByAuthor))">&uarr;</span></th>
+                <th width="35%">Title <span class="clickable" onclick="javascript:sortBooks(sortBooksByTitle)">&darr;</span> <span class="clickable" onclick="javascript:sortBooks(invert(sortBooksByTitle))">&uarr;</span></th>
+                <th width="7%">Out? <span class="clickable" onclick="javascript:sortBooks(sortBooksByOut)">&darr;</span> <span class="clickable" onclick="javascript:sortBooks(invert(sortBooksByOut))">&uarr;</span></th>
+
+                <!-- to keep Out from overlapping with the border, we have this column in here for a spacer -->
+                <th width="1%"></th>
+            </tr>
+            {% for book in books %}
+                <tr class="{% cycle 'odd' 'even' %}">
+                    <td>{{book.id}}</td>
+                    <td>
+                        {% if book.idcode %}
+                            {{book.idcode}}
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if book.isbn != '0' %}
+                            {{book.isbn}}
+                        {% endif %}
+                    </td>
+                    <td>{{book.author}}</td>
+                    <td><a href="{% url 'book' %}?{% if book.idcode %}idcode={{book.idcode}}{% else %}id={{ book.id }}{% endif %}" class="book_link">{{book.title}}</a></td>
+                    <td></td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+    <!-- on the main page, outside of the banner, we need a spacer to keep the top few search results from being under the banner -->
+{#		<div class="spacer"></div>#}
+
+    <!-- the table that will contain book search results -->
+{#		<table class="fancy" width="100%" id="booktable">#}
+{##}
+{#		</table>#}
+    <div class="pagination">
+        <span class="step-links">
+            {% if books.has_previous %}
+                <a href="?page=1{% if filter %}&filter={{filter}}{% endif %}">&laquo; first</a>
+                <a href="?page={{ books.previous_page_number }}{% if filter %}&filter={{filter}}{% endif %}">previous</a>
+            {% endif %}
+
+            <span class="current">
+                Page {{ books.number }} of {{ books.paginator.num_pages }}.
+            </span>
+
+            {% if books.has_next %}
+                <a href="?page={{ books.next_page_number }}{% if filter %}&filter={{filter}}{% endif %}">next</a>
+                <a href="?page={{ books.paginator.num_pages }}{% if filter %}&filter={{filter}}{% endif %}">last &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+
+{% endblock %}

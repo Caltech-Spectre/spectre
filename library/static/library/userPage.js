@@ -595,7 +595,18 @@ function loadXMLorText(xmlortext,url,parameters,processor,post)
 	
 	//this is to be the processor function that will actually be called on state change
 	var stateChangeProcessor
-	
+
+    alert(processor);
+    if (processor == null) {
+	    stateChangeProcessor = function(){};
+	    alert('bing');
+    }
+    else {
+	    stateChangeProcessor = processor;
+	    alert('bong');
+    }
+
+
 	//create the function that will be called when the server responds
 	function state_Change()
 	{
@@ -604,7 +615,10 @@ function loadXMLorText(xmlortext,url,parameters,processor,post)
 	  if (xmlDoc.status==200)
 	    {// 200 = OK
 			var xml=getXMLFromRequest(xmlDoc); //get the xml object
-	    	stateChangeProcessor(xml); //send the sml object to the processor function
+            if (async) {
+                stateChangeProcessor(xml); //send the sml object to the processor function
+            }
+
 	    }
 	  else //there was a problem with the xml data
 	    {

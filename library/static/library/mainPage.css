@@ -1,13 +1,14 @@
 body {
-	background-image: url(/spectre/media/spectreGradient.jpg);/*thanks http://rlv.zcache.com/sp_e_c_t_u_r_e_white_octipus_button-p145089362579505254t5sj_400.jpg ! */
-	background-repeat: repeat-x;
+	/*background-image: url(/static/library/spectreGradient.jpg);!*thanks http://rlv.zcache.com/sp_e_c_t_u_r_e_white_octipus_button-p145089362579505254t5sj_400.jpg ! *!*/
+	/*background-repeat: repeat-x;*/
 	text-align: center;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
+    margin: 0;
 }
 
 /* meant to be used in a div with the spectre logo in it, encircled. used instead of a picture because you can't drag a background, which decreases the effect. */
 .spectrelogodiv {
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	border: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -33,7 +34,7 @@ body {
 /* floats fifty pixels from the left, text centered within it.*/
 .left {
 	border: 0px;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
     margin-right: auto;
     margin-top: 0px;
     text-align: center;
@@ -47,7 +48,7 @@ body {
 .right {
 	border: 0px;
     margin-left: auto;
-    margin-right: 50px;
+    /*margin-right: 50px;*/
     margin-top: 0px;
     text-align: center;
     color: #b5b5b5;
@@ -75,7 +76,7 @@ body {
     margin-right: auto;
     margin-top: 5px;
     text-align: left;
-    color: #b5b5b5;
+    /*color: #b5b5b5;*/
     font-weight: bold;
     font-family: Arial, Verdana, Times;
     font-size: 24px;
@@ -88,7 +89,7 @@ body {
     margin-right: auto;
     margin-top: 5px;
     text-align: left;
-    color: #b5b5b5;
+    /*color: #b5b5b5;*/
     font-family: Arial, Verdana, Times;
     font-size: 14px;
 }
@@ -104,19 +105,29 @@ body {
 
 /*when you hover over a button, the text should be dark red*/
 .btn:hover { 
-	color: rgb(150, 0, 0); 
+	/*color: rgb(150, 0, 0); */
 	font: bold 84% Arial, Verdana, Times; 
 	background-color:black; 
 	border:1px solid; 
 	border-color: #b5b5b5 #b5b5b5 #b5b5b5 #b5b5b5;
 }
 
+#banner_container {
+    background-color: black;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+#banner_container a {
+    text-decoration: none;
+}
+
 /*The main body of the page is inclosed in a box, this one.*/
 .banner {
-	border-width: 5px;
-	border-spacing: 0px;
-	border-style: outset;
-	border-color: #b5b5b5 ;
+	/*border-width: 5px;*/
+	/*border-spacing: 0px;*/
+	/*border-style: outset;*/
+	/*border-color: #b5b5b5 ;*/
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -127,7 +138,41 @@ body {
 	right: auto;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: black;
+	/*background-color: black;*/
+}
+
+#content {
+    margin: 0 auto;
+    width: 800px;
+    color: black;
+}
+
+.database_controls {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+table.fancy {
+    border-collapse:collapse;
+}
+
+tr.odd {
+    background-color: rgba(181, 181, 181, 0.24);
+}
+
+a.book_link {
+    color: rgba(150, 0, 0, 0.79) !important;
+    text-decoration: none !important;
+}
+
+a.book_link:hover {
+    font-weight: bold;
+}
+
+
+.search_metrics {
+    font-size: small;
 }
 
 /*one needs a spacer, somewhere or other*/
@@ -145,19 +190,19 @@ hr.seperator {
 }
 
 /*links should be white and underlined, but when you hover over them, they should be red, and then no underline when you click*/
-a:link {
+banner_container a:link {
 	text-decoration: underline;
 	color: white;
 }
-a:visited {
+banner_container a:visited {
 	text-decoration: underline;
 	color: white;
 }
-a:active {
+banner_container a:active {
 	text-decoration: none;
 	color: red;
 }
-a:hover {
+banner_container a:hover {
 	text-decoration: underline;
 	color: red;
 }

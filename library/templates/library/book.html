@@ -1,0 +1,57 @@
+{% extends 'library/base.html' %}
+{% block content %}
+
+    <div id="content">
+        <div>
+            <div class="left">
+                <input type="button" class="btn" onclick="parent.location='/user/'" value="Database" />
+            </div>
+            <div class="right">
+                <input type="button" class="btn" onclick="parent.location='/checkout'" value="Checkout" />
+            </div>
+        </div>
+        <div class="spacer">
+        </div>
+
+    <h2>Book Details</h2>
+    <table>
+        <tr>
+            <td>Title:</td>
+            <td>{{ book.title }}</td>
+        </tr>
+        <tr>
+            <td>Author:</td>
+            <td>{{ book.author }}</td>
+        </tr>
+        <tr>
+            <td>ISBN:</td>
+            <td>
+                {% if book.isbn != '0' %}
+                    {{ book.isbn }}
+                {% else %}
+                    Not available
+                {% endif %}
+            </td>
+        </tr>
+        <tr>
+            <td>ID:</td>
+            <td>{{ book.idcode }}</td>
+        </tr>
+        <tr>
+            <td>Status:</td>
+            <td>
+                {% if book.bloan %}
+                    Checked out
+                {% else %}
+                    Available
+                {% endif %}
+            </td>
+        </tr>
+    </table>
+
+    {% if not book.bloan %}
+        <button onclick="parent.location='/checkout?id={{ book.id }}'">Checkout</button>
+    {% endif %}
+
+    </div>
+{% endblock %}

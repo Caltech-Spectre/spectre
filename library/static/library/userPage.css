@@ -1,10 +1,10 @@
 /*A static background image of a vertical black to red gradient, fixed*/
 body {
-	background-image: url(/spectre/media/spectreGradient.jpg);/*thanks http://rlv.zcache.com/sp_e_c_t_u_r_e_white_octipus_button-p145089362579505254t5sj_400.jpg ! */
+	background-image: url({% static '/library/spectreGradient.jpg' %});/*thanks http://rlv.zcache.com/sp_e_c_t_u_r_e_white_octipus_button-p145089362579505254t5sj_400.jpg ! */
 	background-repeat: repeat-x;
 	background-position: 0px 300px;
 	background-attachment: fixed;
-    color: #b5b5b5;
+    /*color: #b5b5b5;*/
     font-family: Arial, Verdana, Times;
     font-size: 12px;
 }
@@ -90,21 +90,26 @@ table.fancy tr.even:hover {
 
 /*The actual silver bordered black box that contains everything but search results. It is full width, 300px tall, and hovers over the rest of the page at the top*/
 .banner {
-	border-width: 5px;
+	/*border-width: 5px;*/
 	border-spacing: 0px;
-	border-style: outset;
+	/*border-style: outset;*/
 	border-color: #b5b5b5 ;
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	text-align: left;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 100%-5px;
+	/*position: fixed;*/
+	/*top: 0px;*/
+	/*left: 0px;*/
+	width: 100%;
 	height: 300px;
-	right: 0px;
+	/*right: 0px;*/
 	background-color: black;
+}
+
+#content {
+    margin: 0 auto;
+    width: 800px;
 }
 
 /*the backdrop inside the banner has the darkened spectrelogo in the center as a background. It si 260 high, to leave room for the table header underneath it inside the banner*/
@@ -112,10 +117,12 @@ table.fancy tr.even:hover {
 	border-width: 0px;
 	border-spacing: 0px;
 	margin: 0;
+	color: #b5b5b5;
 	top: 0px;
 	height: 260px;
 	width: 100%;
-	background-image: url(/spectre/media/spectreLogoDark.png);
+	background-color: black;
+	background-image: url('/static/library/spectreLogoDark.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 }
@@ -149,7 +156,7 @@ table.fancy tr.even:hover {
 	font-size: 14px;
 	text-align: left;
 	overflow: auto;
-	float:left;
+	/*float:left;*/
 }
 
 /*a right floating banner to hold information about the book in the banner*/
@@ -164,7 +171,7 @@ table.fancy tr.even:hover {
 	font-size: 14px;
 	text-align: right;
 	overflow: auto;
-	float:right;
+	/*float:right;*/
 }
 
 /*book info is in a box that hangs right, but it itself must hang right within that box*/
@@ -172,7 +179,7 @@ table.fancy tr.even:hover {
 	margin-right: 0px;
 	margin-left: auto;
 	text-align:right;
-	float:right;
+	/*float:right;*/
 }
 
 /*the table head must not overlap the borders of the banner*/
@@ -180,7 +187,7 @@ table.fancy tr.even:hover {
 	border-width: 0px;
 	margin: 0;
 	text-align: left;
-	position: fixed;
+	/*position: fixed;*/
 	top: 280;
 	bottom: auto;
 	right: 0px;

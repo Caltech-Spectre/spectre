@@ -1,0 +1,42 @@
+{% load static %}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN">
+<html>
+	<head>
+		
+		<!-- One needs one of them little icons at the top, and I got one. -->
+		<link rel="shortcut icon" href="{% static 'library/favicon.ico' %}" >
+		<link rel="icon" type="image/gif" href="{% static 'library/animated_favicon1.gif' %}" >
+		
+		<!-- a title -->
+		<title>S.P.E.C.T.R.E.</title>
+		
+		<!-- a style sheet -->
+		<link rel="stylesheet" href="{% static 'library/mainPage.css' %}" />
+	</head>
+	<body>
+
+        <div id="banner_container">
+            <a href="/">
+                <div class="banner">
+
+                    <!-- the logo, in a div, so you can't drag it like an image, which ruins the effect. -->
+                    <div class="spectrelogodiv">
+                        <img src="{% static 'library/spectreLogo.png' %}">
+                    </div>
+
+                    <!-- the title, as it appears on the page -->
+                    <div class="spectretitle">
+                        We Are S.P.E.C.T.R.E.
+                    </div>
+                    <div class="spectresubtitle">
+                        The Caltech Science Fiction Club
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% block content %}
+        {% endblock %}
+
+	</body>
+</html>
