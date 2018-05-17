@@ -75,3 +75,7 @@ output "rds-address" {
 output "rds-port" {
   value = "${data.terraform_remote_state.vpc.rds-prod-port}"
 }
+
+output "task-role-arn" {
+  value = "${module.prod.task-role-arn}"
+}

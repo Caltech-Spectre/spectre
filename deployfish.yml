@@ -4,7 +4,7 @@ terraform:
     ecr_repository_url: 'ecr_repository'
     cluster_name: 'ecs-cluster-name'
     kms_key_arn: '{environment}-kms-key-arn'
-    task_role_arn: '{environment}-task-role-arn'
+    task_role_arn: 'task-role-arn'
     rds_address: 'rds-address'
     rds_port: 'rds-port'
 
@@ -53,7 +53,6 @@ services:
             fluentd-address: 127.0.1.0:24224
             tag: spectre
     config:
-      - DEBUG=False
       - PROXY_HOSTNAME=spectre.caltech.edu
       - MYSQL_USER=spectre_u
       - MYSQL_HOST=${terraform.rds_address}
