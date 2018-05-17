@@ -64,6 +64,8 @@ RUN chmod a+r /spectre_certs/*
 
 RUN adduser -r gunicorn
 
+ENV LC_ALL=en_US.utf8 LANG=en_US.utf8
+
 EXPOSE 80 443 8042
 
 ENTRYPOINT ["deploy", "entrypoint"]

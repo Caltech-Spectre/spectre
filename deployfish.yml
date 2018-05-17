@@ -1,0 +1,61 @@
+terraform:
+  statefile: 's3://caltech-terraform-remotestate-file/spectre-terraform-state'
+  lookups:
+    ecr_repository_url: 'ecr_repository'
+    cluster_name: 'ecs-cluster-name'
+    kms_key_arn: '{environment}-kms-key-arn'
+    task_role_arn: '{environment}-task-role-arn'
+    rds_address: 'rds-address'
+    rds_port: 'rds-port'
+
+tunnels:
+  - name: mysql
+    service: spectre-prod
+    host: config.MYSQL_HOST
+    port: 3306
+    local_port: 8888
+
+mysql:
+  - name: prod
+    service: spectre-prod
+    host: config.MYSQL_HOST
+    db: config.MYSQL_DB
+    user: config.MYSQL_USER
+    pass: config.MYSQL_PASSWORD
+
+services:
+  - name: spectre-prod
+    cluster: ${terraform.cluster_name}
+    environment: prod
+    count: 1
+    family: spectre-prod
+    network_mode: bridge
+    task_role_arn: ${terraform.task_role_arn}
+    containers:
+      - name: spectre
+        image: ${terraform.ecr_repository_url}:0.0.1
+        cpu: 128
+        memory: 512
+        ports:
+          - "80"
+          - "443"
+        environment:
+          - AWS_DEFAULT_REGION=us-west-2
+          - LDAPTLS_REQCERT=never
+          - LOGGING_MODE=print
+          - AUTOPROXY_SERVER_ADMIN=imss-ads-staff@caltech.edu
+          - AUTORPOXY_ENVIRONMENT=test
+          - AUTOPROXY_SERVER_NAME=spectrelibrary.caltech.edu
+          - AUTOPROXY_SERVER_ALIASES=www.spectrelibrary.caltech.edu
+        logging:
+          driver: fluentd
+          options:
+            fluentd-address: 127.0.0.1:24224
+            tag: spectre
+    config:
+      - DEBUG=False
+      - PROXY_HOSTNAME=spectre.caltech.edu
+      - MYSQL_USER=spectre_u
+      - MYSQL_HOST=${terraform.rds_address}
+      - MYSQL_DB=spectre
+      - MYSQL_PASSWORD=${env.MYSQL_PASSWORD}
