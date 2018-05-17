@@ -36,6 +36,7 @@ services:
         image: ${terraform.ecr_repository_url}:0.1.1
         cpu: 128
         memory: 512
+        command: /usr/bin/supervisord
         ports:
           - "80"
           - "443"
@@ -44,7 +45,7 @@ services:
           - LDAPTLS_REQCERT=never
           - LOGGING_MODE=print
           - AUTOPROXY_SERVER_ADMIN=imss-ads-staff@caltech.edu
-          - AUTORPOXY_ENVIRONMENT=test
+          - AUTOPROXY_ENVIRONMENT=test
           - AUTOPROXY_SERVER_NAME=spectrelibrary.caltech.edu
           - AUTOPROXY_SERVER_ALIASES=www.spectrelibrary.caltech.edu
         logging:
@@ -54,7 +55,7 @@ services:
             tag: spectre
     config:
       - PROXY_HOSTNAME=spectre.caltech.edu
-      - MYSQL_USER=spectre_u
-      - MYSQL_HOST=${terraform.rds_address}
-      - MYSQL_DB=spectre
-      - MYSQL_PASSWORD=${env.MYSQL_PASSWORD}
+      - DB_USER=spectre_u
+      - DB_HOST=${terraform.rds_address}
+      - DB_DB=spectre
+      - DB_PASSWORD=${env.MYSQL_PASSWORD}

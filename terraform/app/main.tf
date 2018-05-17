@@ -64,7 +64,7 @@ resource "aws_iam_policy" "parameter-store" {
         ],
         "Effect": "Allow",
         "Resource": [
-            "arn:aws:ssm:us-west-2:467892444047:parameter/spectre.*"
+            "arn:aws:ssm:us-west-2:467892444047:parameter/web-prod.spectre-prod.*"
          ]
       }
   ]
