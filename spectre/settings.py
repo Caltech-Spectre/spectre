@@ -73,10 +73,22 @@ WSGI_APPLICATION = 'spectre.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': os.environ.get('DB_NAME', None),
+        'USER': os.environ.get('DB_USER', None),
+        'PASSWORD': os.environ.get('DB_PASSWORD', None),
+        'HOST': os.environ.get('DB_HOST', None),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
@@ -118,3 +130,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/spectre/static/'
+
+GUNICORN_SETTINGS = {
+    'workers': 8,
+	'reload': bool(os.environ.get('GUNICORN_RELOAD', False))
+}

@@ -1,1 +1,10 @@
-Django==2.0.4
+deployfish
+Django
+gunicorn
+mysqlclient
+PyYAML
+requests
+whitenoise
+
+./dependencies/ads_extras.tgz
+

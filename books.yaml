@@ -1,4 +1,3 @@
----
 - model: library.book
   id: 1
   fields:
@@ -514,7 +513,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780425181683
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 48
@@ -646,7 +645,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780345435279
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 60
@@ -1086,7 +1085,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780312876517
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 100
@@ -1108,7 +1107,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 1
-    idcode: 71831007957
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 102
@@ -1130,7 +1129,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780345391650
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 104
@@ -1152,7 +1151,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780553101744
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 106
@@ -1229,7 +1228,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 113
@@ -1559,7 +1558,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9781576466391
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 144
@@ -1570,7 +1569,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9781576466384
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 145
@@ -1581,7 +1580,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9781576466377
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 146
@@ -1603,7 +1602,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9781576466438
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 148
@@ -1702,7 +1701,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 51488022954
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 157
@@ -1757,7 +1756,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780671721046
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 162
@@ -1768,7 +1767,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780312890728
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 163
@@ -4078,7 +4077,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145002750
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 373
@@ -4089,7 +4088,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 374
@@ -4100,7 +4099,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783002258
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 375
@@ -4111,7 +4110,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71162002959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 376
@@ -4122,7 +4121,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 377
@@ -4133,7 +4132,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 378
@@ -4144,7 +4143,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 380
@@ -4155,7 +4154,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125002750
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 381
@@ -4166,7 +4165,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 382
@@ -4177,7 +4176,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831006998
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 383
@@ -4188,7 +4187,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783004955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 384
@@ -4199,7 +4198,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 27778003507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 385
@@ -4210,7 +4209,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70992002504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 386
@@ -4221,7 +4220,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145004501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 387
@@ -4232,7 +4231,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783005990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 389
@@ -4243,7 +4242,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002754
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 390
@@ -4254,7 +4253,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 391
@@ -4265,7 +4264,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 46363003951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 392
@@ -4276,7 +4275,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 393
@@ -4287,7 +4286,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99455004503
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 394
@@ -4298,7 +4297,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 46363003951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 395
@@ -4309,7 +4308,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 396
@@ -4320,7 +4319,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 397
@@ -4331,7 +4330,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125002255
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 398
@@ -4342,7 +4341,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 65373050953
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 399
@@ -4353,7 +4352,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002505
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 400
@@ -4364,7 +4363,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 46363002503
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 401
@@ -4375,7 +4374,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002255
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 402
@@ -4386,7 +4385,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783006997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 403
@@ -4397,7 +4396,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 404
@@ -4408,7 +4407,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 405
@@ -4419,7 +4418,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993002954
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 406
@@ -4430,7 +4429,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 407
@@ -4441,7 +4440,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999005959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 408
@@ -4452,7 +4451,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 409
@@ -4463,7 +4462,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009007994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 410
@@ -4474,7 +4473,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 411
@@ -4485,7 +4484,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001006995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 412
@@ -4496,7 +4495,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002255
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 413
@@ -4507,7 +4506,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 414
@@ -4518,7 +4517,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742004509
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 415
@@ -4529,7 +4528,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 072742002956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 416
@@ -4540,7 +4539,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 417
@@ -4551,7 +4550,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002758
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 418
@@ -4562,7 +4561,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009007994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 419
@@ -4573,7 +4572,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 420
@@ -4584,7 +4583,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 421
@@ -4595,7 +4594,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70992002955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 422
@@ -4606,7 +4605,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 423
@@ -4617,7 +4616,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 78021002754
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 424
@@ -4628,7 +4627,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 425
@@ -4639,7 +4638,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70992002955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 426
@@ -4650,7 +4649,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 427
@@ -4661,7 +4660,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 428
@@ -4672,7 +4671,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 429
@@ -4683,7 +4682,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 430
@@ -4694,7 +4693,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 431
@@ -4705,7 +4704,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 432
@@ -4716,7 +4715,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 434
@@ -4727,7 +4726,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70992002252
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 435
@@ -4738,7 +4737,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 436
@@ -4749,7 +4748,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742003953
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 437
@@ -4760,7 +4759,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 438
@@ -4771,7 +4770,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 439
@@ -4782,7 +4781,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993005993
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 441
@@ -4793,7 +4792,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001002959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 442
@@ -4804,7 +4803,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 443
@@ -4815,7 +4814,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 27778004955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 444
@@ -4826,7 +4825,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 46363004958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 445
@@ -4837,7 +4836,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 446
@@ -4848,7 +4847,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 447
@@ -4859,7 +4858,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002754
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 448
@@ -4870,7 +4869,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 450
@@ -4881,7 +4880,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 451
@@ -4892,7 +4891,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 452
@@ -4903,7 +4902,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993005504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 453
@@ -4914,7 +4913,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742004998
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 454
@@ -4925,7 +4924,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 455
@@ -4936,7 +4935,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 456
@@ -4947,7 +4946,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831007995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 457
@@ -4958,7 +4957,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 459
@@ -4969,7 +4968,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780393008470
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 460
@@ -4980,7 +4979,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 461
@@ -4991,7 +4990,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002750
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 462
@@ -5002,7 +5001,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001006995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 463
@@ -5013,7 +5012,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783004955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 464
@@ -5024,7 +5023,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 465
@@ -5035,7 +5034,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9782070360789
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 466
@@ -5046,7 +5045,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71152002952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 467
@@ -5057,7 +5056,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009006508
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 468
@@ -5068,7 +5067,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71162006995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 470
@@ -5079,7 +5078,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993002954
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 471
@@ -5090,7 +5089,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 472
@@ -5101,7 +5100,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783004955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 473
@@ -5112,7 +5111,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742004950
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 474
@@ -5123,7 +5122,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99455005999
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 475
@@ -5134,7 +5133,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 476
@@ -5145,7 +5144,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780893902377
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 477
@@ -5167,7 +5166,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71136006990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 480
@@ -5178,7 +5177,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 481
@@ -5189,7 +5188,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 483
@@ -5200,7 +5199,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714006997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 484
@@ -5211,7 +5210,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714007994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 485
@@ -5222,7 +5221,7 @@
     bought: 1984-01-01
     last: 2012-08-28
     checkouts: 1
-    idcode: 37145005997
+    idcode: 0
     bloan_id:
 - model: library.book
   id: 486
@@ -5233,7 +5232,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 77434006991
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 487
@@ -5244,7 +5243,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 488
@@ -5255,7 +5254,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001006995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 489
@@ -5266,7 +5265,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145007991
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 490
@@ -5277,7 +5276,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714006997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 491
@@ -5288,7 +5287,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783006997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 492
@@ -5299,7 +5298,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009007994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 493
@@ -5310,7 +5309,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002754
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 494
@@ -5321,7 +5320,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 495
@@ -5332,7 +5331,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 496
@@ -5343,7 +5342,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 497
@@ -5354,7 +5353,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 498
@@ -5365,7 +5364,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002255
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 499
@@ -5376,7 +5375,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 500
@@ -5387,7 +5386,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125002750
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 501
@@ -5398,7 +5397,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 502
@@ -5409,7 +5408,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714004993
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 503
@@ -5420,7 +5419,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 504
@@ -5431,7 +5430,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 505
@@ -5442,7 +5441,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76814001953
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 506
@@ -5453,7 +5452,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 508
@@ -5464,7 +5463,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 18874206084
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 509
@@ -5475,7 +5474,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002754
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 510
@@ -5486,7 +5485,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831006998
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 512
@@ -5497,7 +5496,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 514
@@ -5508,7 +5507,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831003256
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 515
@@ -5519,7 +5518,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714005990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 516
@@ -5530,7 +5529,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 517
@@ -5541,7 +5540,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 46363002503
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 518
@@ -5552,7 +5551,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742004509
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 519
@@ -5563,7 +5562,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 520
@@ -5574,7 +5573,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 521
@@ -5585,7 +5584,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 522
@@ -5596,7 +5595,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 523
@@ -5607,7 +5606,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 524
@@ -5618,7 +5617,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 525
@@ -5629,7 +5628,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 25079003950
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 526
@@ -5640,7 +5639,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 527
@@ -5651,7 +5650,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 528
@@ -5662,7 +5661,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001002959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 529
@@ -5673,7 +5672,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 17338003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 530
@@ -5684,7 +5683,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125002507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 531
@@ -5695,7 +5694,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 532
@@ -5706,7 +5705,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 533
@@ -5717,7 +5716,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001004991
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 534
@@ -5728,7 +5727,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 535
@@ -5739,7 +5738,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 536
@@ -5750,7 +5749,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 537
@@ -5761,7 +5760,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001004502
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 538
@@ -5772,7 +5771,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 539
@@ -5783,7 +5782,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 540
@@ -5794,7 +5793,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742004509
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 541
@@ -5805,7 +5804,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742004509
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 542
@@ -5816,7 +5815,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742003953
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 543
@@ -5827,7 +5826,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002253
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 544
@@ -5838,7 +5837,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99455006507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 545
@@ -5849,7 +5848,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 546
@@ -5860,7 +5859,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993001506
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 547
@@ -5871,7 +5870,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71149003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 548
@@ -5882,7 +5881,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 549
@@ -5893,7 +5892,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002259
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 550
@@ -5904,7 +5903,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 551
@@ -5915,7 +5914,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714004993
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 552
@@ -5926,7 +5925,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76814002950
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 553
@@ -5937,7 +5936,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 554
@@ -5948,7 +5947,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76814002509
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 555
@@ -5959,7 +5958,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 556
@@ -5970,7 +5969,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009007994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 557
@@ -5981,7 +5980,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 558
@@ -5992,7 +5991,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993002954
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 559
@@ -6003,7 +6002,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 560
@@ -6014,7 +6013,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 561
@@ -6025,7 +6024,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 562
@@ -6036,7 +6035,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99455004503
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 563
@@ -6047,7 +6046,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125002507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 564
@@ -6058,7 +6057,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 565
@@ -6069,7 +6068,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714007994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 566
@@ -6080,7 +6079,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 567
@@ -6091,7 +6090,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742003502
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 568
@@ -6102,7 +6101,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 569
@@ -6113,7 +6112,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 570
@@ -6124,7 +6123,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99769004503
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 571
@@ -6135,7 +6134,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99769004503
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 572
@@ -6146,7 +6145,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 573
@@ -6157,7 +6156,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 574
@@ -6168,7 +6167,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 575
@@ -6179,7 +6178,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003750
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 576
@@ -6190,7 +6189,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002253
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 577
@@ -6201,7 +6200,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009001954
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 578
@@ -6212,7 +6211,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993003500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 579
@@ -6223,7 +6222,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009001954
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 580
@@ -6234,7 +6233,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 30314006993
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 581
@@ -6245,7 +6244,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993007508
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 582
@@ -6256,7 +6255,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742003953
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 583
@@ -6267,7 +6266,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 585
@@ -6278,7 +6277,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001003956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 586
@@ -6289,7 +6288,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99455004992
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 587
@@ -6300,7 +6299,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002754
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 588
@@ -6311,7 +6310,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714004955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 589
@@ -6322,7 +6321,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001006995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 591
@@ -6333,7 +6332,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 592
@@ -6344,7 +6343,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 46363002251
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 593
@@ -6355,7 +6354,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993860585
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 594
@@ -6366,7 +6365,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 595
@@ -6377,7 +6376,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 596
@@ -6388,7 +6387,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71152003508
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 597
@@ -6399,7 +6398,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 598
@@ -6410,7 +6409,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125004501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 599
@@ -6421,7 +6420,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 600
@@ -6432,7 +6431,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742003502
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 601
@@ -6443,7 +6442,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 602
@@ -6454,7 +6453,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780345340320
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 603
@@ -6465,7 +6464,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 604
@@ -6476,7 +6475,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002750
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 605
@@ -6487,7 +6486,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742003991
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 607
@@ -6498,7 +6497,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783005501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 608
@@ -6509,7 +6508,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 610
@@ -6520,7 +6519,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001003956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 611
@@ -6531,7 +6530,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 612
@@ -6542,7 +6541,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 18926003500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 613
@@ -6553,7 +6552,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 614
@@ -6564,7 +6563,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 78252004503
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 615
@@ -6575,7 +6574,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 27778002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 616
@@ -6586,7 +6585,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 17338002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 617
@@ -6597,7 +6596,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783002753
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 619
@@ -6608,7 +6607,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002754
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 620
@@ -6619,7 +6618,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002754
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 621
@@ -6630,7 +6629,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 622
@@ -6641,7 +6640,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 623
@@ -6652,7 +6651,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 624
@@ -6663,7 +6662,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71162003956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 625
@@ -6674,7 +6673,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002754
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 626
@@ -6685,7 +6684,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 627
@@ -6696,7 +6695,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 628
@@ -6707,7 +6706,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 629
@@ -6718,7 +6717,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 630
@@ -6729,7 +6728,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 631
@@ -6740,7 +6739,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002750
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 633
@@ -6751,7 +6750,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 634
@@ -6762,7 +6761,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 635
@@ -6773,7 +6772,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 636
@@ -6784,7 +6783,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 637
@@ -6795,7 +6794,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002758
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 638
@@ -6806,7 +6805,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 639
@@ -6817,7 +6816,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 640
@@ -6828,7 +6827,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 641
@@ -6839,7 +6838,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 642
@@ -6850,7 +6849,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 643
@@ -6861,7 +6860,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76814002257
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 644
@@ -6872,7 +6871,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780195032123
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 645
@@ -6883,7 +6882,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780486205281
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 646
@@ -6894,7 +6893,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76814002509
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 647
@@ -6905,7 +6904,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002505
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 648
@@ -6916,7 +6915,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 649
@@ -6927,7 +6926,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70992002757
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 650
@@ -6938,7 +6937,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 14794004953
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 651
@@ -6949,7 +6948,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70992001958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 652
@@ -6960,7 +6959,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 653
@@ -6971,7 +6970,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831003508
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 654
@@ -6982,7 +6981,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783002500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 655
@@ -6993,7 +6992,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 656
@@ -7004,7 +7003,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76814001953
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 657
@@ -7015,7 +7014,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 658
@@ -7026,7 +7025,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9783891062470
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 659
@@ -7037,7 +7036,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780393097054
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 660
@@ -7048,7 +7047,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9781572303829
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 661
@@ -7059,7 +7058,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780226768427
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 662
@@ -7070,7 +7069,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780486284996
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 663
@@ -7081,7 +7080,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780192840790
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 664
@@ -7092,7 +7091,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780393314809
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 665
@@ -7103,7 +7102,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99455006996
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 666
@@ -7114,7 +7113,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99455005999
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 667
@@ -7125,7 +7124,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 668
@@ -7136,7 +7135,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 44903006998
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 669
@@ -7147,7 +7146,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993007997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 670
@@ -7158,7 +7157,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009007994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 671
@@ -7169,7 +7168,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009007994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 672
@@ -7180,7 +7179,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993007997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 673
@@ -7191,7 +7190,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714006997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 674
@@ -7202,7 +7201,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831007506
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 675
@@ -7213,7 +7212,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 677
@@ -7224,7 +7223,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 678
@@ -7235,7 +7234,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 679
@@ -7246,7 +7245,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780486618814
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 680
@@ -7257,7 +7256,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780486270654
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 681
@@ -7268,7 +7267,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993007997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 682
@@ -7279,7 +7278,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 683
@@ -7290,7 +7289,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 77434006991
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 684
@@ -7301,7 +7300,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 685
@@ -7312,7 +7311,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 686
@@ -7323,7 +7322,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783007994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 687
@@ -7334,7 +7333,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993007997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 688
@@ -7345,7 +7344,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993007997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 689
@@ -7356,7 +7355,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780385494144
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 690
@@ -7367,7 +7366,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780330485173
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 691
@@ -7378,7 +7377,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780679735724
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 692
@@ -7389,7 +7388,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780684853154
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 693
@@ -7400,7 +7399,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783007994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 694
@@ -7411,7 +7410,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 695
@@ -7422,7 +7421,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9781566197106
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 696
@@ -7433,7 +7432,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780486290270
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 698
@@ -7444,7 +7443,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002750
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 699
@@ -7455,7 +7454,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 700
@@ -7466,7 +7465,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001002959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 701
@@ -7477,7 +7476,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780060802424
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 703
@@ -7488,7 +7487,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783007505
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 704
@@ -7499,7 +7498,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780262530705
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 705
@@ -7510,7 +7509,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780140390131
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 706
@@ -7521,7 +7520,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780674766914
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 707
@@ -7532,7 +7531,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742006992
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 708
@@ -7543,7 +7542,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783005990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 709
@@ -7554,7 +7553,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001002959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 710
@@ -7565,7 +7564,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 712
@@ -7576,7 +7575,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99455005500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 713
@@ -7587,7 +7586,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9781852421403
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 714
@@ -7598,7 +7597,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125004990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 715
@@ -7609,7 +7608,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71162006995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 716
@@ -7620,7 +7619,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99769006996
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 717
@@ -7631,7 +7630,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 718
@@ -7642,7 +7641,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 720
@@ -7653,7 +7652,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993006990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 721
@@ -7664,7 +7663,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 722
@@ -7675,7 +7674,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742005506
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 723
@@ -7686,7 +7685,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 726
@@ -7697,7 +7696,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780393310320
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 727
@@ -7708,7 +7707,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71149003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 728
@@ -7719,7 +7718,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780674766914
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 729
@@ -7730,7 +7729,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780156005555
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 730
@@ -7741,7 +7740,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 731
@@ -7752,7 +7751,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002956_2
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 732
@@ -7763,7 +7762,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 27778004504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 733
@@ -7774,7 +7773,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 734
@@ -7785,7 +7784,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 735
@@ -7796,7 +7795,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783004504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 736
@@ -7807,7 +7806,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 46363004958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 737
@@ -7818,7 +7817,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831003508
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 738
@@ -7829,7 +7828,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99769004992
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 739
@@ -7840,7 +7839,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783004955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 740
@@ -7851,7 +7850,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783004504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 741
@@ -7862,7 +7861,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 742
@@ -7873,7 +7872,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 743
@@ -7884,7 +7883,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 744
@@ -7895,7 +7894,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 745
@@ -7906,7 +7905,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993006990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 746
@@ -7917,7 +7916,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003996
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 747
@@ -7928,7 +7927,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71152005991
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 748
@@ -7939,7 +7938,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780192823502
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 749
@@ -7950,7 +7949,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 750
@@ -7961,7 +7960,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780684804507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 751
@@ -7972,7 +7971,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001004502
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 752
@@ -7983,7 +7982,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 753
@@ -7994,7 +7993,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714005501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 754
@@ -8005,7 +8004,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002754
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 755
@@ -8016,7 +8015,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 14794005950
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 756
@@ -8027,7 +8026,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9781566197083
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 757
@@ -8038,7 +8037,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71162003956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 758
@@ -8049,7 +8048,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783002500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 759
@@ -8269,7 +8268,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002253
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 779
@@ -8280,7 +8279,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002253
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 780
@@ -8368,7 +8367,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 790
@@ -8456,7 +8455,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 1580600514
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 799
@@ -8467,7 +8466,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742004998
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 800
@@ -8489,7 +8488,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 802
@@ -8500,7 +8499,7 @@
     bought: 1984-01-01
     last: 2013-01-11
     checkouts: 1
-    idcode: 9780553379556
+    idcode: 0
     bloan_id:
 - model: library.book
   id: 803
@@ -8511,7 +8510,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780425132159
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 804
@@ -8544,7 +8543,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780441009718
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 807
@@ -8555,7 +8554,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780671319458
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 808
@@ -8566,7 +8565,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780312875824
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 809
@@ -8577,7 +8576,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780886777050
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 810
@@ -8588,7 +8587,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780312854287
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 811
@@ -8610,7 +8609,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 813
@@ -8621,7 +8620,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 814
@@ -8632,7 +8631,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 815
@@ -8643,7 +8642,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999007991
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 816
@@ -8654,7 +8653,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714005990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 817
@@ -8665,7 +8664,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714005990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 818
@@ -8676,7 +8675,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 819
@@ -8687,7 +8686,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 820
@@ -8698,7 +8697,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 821
@@ -8709,7 +8708,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 822
@@ -8720,7 +8719,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 823
@@ -8731,7 +8730,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125002507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 824
@@ -8764,7 +8763,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 827
@@ -8775,7 +8774,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 828
@@ -8786,7 +8785,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 829
@@ -8797,7 +8796,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999007991
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 830
@@ -8808,7 +8807,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002956
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 831
@@ -8819,7 +8818,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993002954
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 832
@@ -8830,7 +8829,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 833
@@ -8841,7 +8840,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001006506
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 834
@@ -8852,7 +8851,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 835
@@ -8863,7 +8862,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783005990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 836
@@ -8874,7 +8873,7 @@
     bought: 1984-01-01
     last: 2010-11-25
     checkouts: 1
-    idcode: 76714004955
+    idcode: 0
     bloan_id:
 - model: library.book
   id: 837
@@ -8885,7 +8884,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783004993
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 838
@@ -9061,7 +9060,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780671668518
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 855
@@ -9072,7 +9071,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 856
@@ -9083,7 +9082,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780671668518
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 857
@@ -9094,7 +9093,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 80742060326
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 858
@@ -9105,7 +9104,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780393306347
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 859
@@ -9116,7 +9115,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 861
@@ -9127,7 +9126,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71162003505
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 862
@@ -9138,7 +9137,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831001504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 863
@@ -9149,7 +9148,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 864
@@ -9160,7 +9159,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70992002757
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 865
@@ -9171,7 +9170,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 866
@@ -9182,7 +9181,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 867
@@ -9193,7 +9192,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742002758
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 868
@@ -9204,7 +9203,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993004996
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 869
@@ -9215,7 +9214,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 46363004958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 870
@@ -9226,7 +9225,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 871
@@ -9237,7 +9236,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 872
@@ -9248,7 +9247,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70992002955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 873
@@ -9259,7 +9258,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001002959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 874
@@ -9270,7 +9269,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 875
@@ -9281,7 +9280,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 876
@@ -9292,7 +9291,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003955
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 877
@@ -9303,7 +9302,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831002259
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 878
@@ -9314,7 +9313,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 879
@@ -9325,7 +9324,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125003504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 880
@@ -9358,7 +9357,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 7112500395
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 883
@@ -9369,7 +9368,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999002958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 884
@@ -9391,7 +9390,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99455006996
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 886
@@ -9457,7 +9456,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 1
-    idcode: 37145007991
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 892
@@ -9666,7 +9665,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 911
@@ -10249,7 +10248,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99769005999
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 964
@@ -10271,7 +10270,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783001954
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 966
@@ -10293,7 +10292,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70993003951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 968
@@ -10326,7 +10325,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002258
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 971
@@ -10348,7 +10347,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831001252
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 973
@@ -10634,7 +10633,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001002751
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 999
@@ -10722,7 +10721,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002753
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1007
@@ -10843,7 +10842,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76783006508
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1018
@@ -10854,7 +10853,7 @@
     bought: 1984-01-01
     last: 2012-08-14
     checkouts: 1
-    idcode: 9780679740674
+    idcode: 0
     bloan_id:
 - model: library.book
   id: 1019
@@ -10865,7 +10864,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 29398003509
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1020
@@ -11987,7 +11986,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780416027327
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1122
@@ -15657,7 +15656,7 @@
   fields:
     title: "SF: The Year's Greatest Science-Fiction and Fantasy"
     author: Merril, Judith
-    isbn: aMerril, Judith
+    isbn: 0
     bought: 1984-01-01
     last: 
     checkouts: 0
@@ -17872,7 +17871,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742005995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1659
@@ -17905,7 +17904,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71268003959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1662
@@ -17916,7 +17915,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001003505
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1663
@@ -17927,7 +17926,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001002256
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1664
@@ -18213,7 +18212,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71001005998
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1690
@@ -18224,7 +18223,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780722163399
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1691
@@ -18246,7 +18245,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71152004505
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1693
@@ -18257,7 +18256,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71009003507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1694
@@ -18334,7 +18333,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780553299212
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1701
@@ -18499,7 +18498,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71149004952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1716
@@ -18521,7 +18520,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 46363003500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1718
@@ -18719,7 +18718,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 2800812574748
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1736
@@ -18818,7 +18817,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145003993
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1745
@@ -18851,7 +18850,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 46363002954
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1748
@@ -18961,7 +18960,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 18926004958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1758
@@ -19115,7 +19114,7 @@
     bought: 1984-01-01
     last: 2012-08-02
     checkouts: 1
-    idcode: 71001002508
+    idcode: 0
     bloan_id:
 - model: library.book
   id: 1772
@@ -19302,7 +19301,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714004504
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1789
@@ -19984,7 +19983,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 2800345367695
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1851
@@ -20039,7 +20038,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 32097004500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 1856
@@ -22096,7 +22095,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 3
-    idcode: 9780380788620
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2045
@@ -22877,7 +22876,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 24885234411
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2116
@@ -23196,7 +23195,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714002500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2145
@@ -23482,7 +23481,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71268002501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2171
@@ -23570,7 +23569,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70992003501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2179
@@ -23812,7 +23811,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125005997
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2201
@@ -23856,7 +23855,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9781857988543
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2205
@@ -23966,7 +23965,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780312853952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2215
@@ -24604,7 +24603,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780245543340
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2273
@@ -25517,7 +25516,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714005952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2356
@@ -25726,7 +25725,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 14794002959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2375
@@ -25825,7 +25824,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 27778002500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2384
@@ -25858,7 +25857,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780671735753
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2387
@@ -25968,7 +25967,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71149002507
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2397
@@ -26056,7 +26055,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831005502
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2405
@@ -26089,7 +26088,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76814003957
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2408
@@ -26298,7 +26297,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70992006953
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2427
@@ -26320,7 +26319,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 2800553101746
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2429
@@ -26353,7 +26352,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780312865092
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2432
@@ -26375,7 +26374,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 70999008950
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2434
@@ -26408,7 +26407,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780061052439
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2437
@@ -26441,7 +26440,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99769013000
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2440
@@ -26628,7 +26627,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780881847697
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2457
@@ -26639,7 +26638,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 78021002259
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2458
@@ -26661,7 +26660,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780426202868
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2460
@@ -26705,7 +26704,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 14794005998
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2464
@@ -26859,7 +26858,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 72742001959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2478
@@ -26870,7 +26869,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780020442301
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2479
@@ -27288,7 +27287,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780886777555
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2517
@@ -27306,7 +27305,7 @@
   fields:
     title: Breaking Earth, The
     author: Laumer, Keith
-    isbn: aLaumer, Keith
+    isbn: 0
     bought: 1984-01-01
     last: 
     checkouts: 0
@@ -27387,7 +27386,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 78021002501
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2526
@@ -27508,7 +27507,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 65373003508
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2537
@@ -27552,7 +27551,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 671656198
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2541
@@ -27684,7 +27683,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780312855727
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2553
@@ -28366,7 +28365,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 405208308987
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2615
@@ -28846,7 +28845,7 @@
   fields:
     title: Castle of the Otter, the
     author: Wolfe, Gene
-    isbn: tCastle of the Otter, the
+    isbn: 0
     bought: 1984-01-01
     last: 
     checkouts: 0
@@ -29004,7 +29003,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71831006950
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2673
@@ -29202,7 +29201,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780099443919
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2691
@@ -29257,7 +29256,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 490590221983
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2696
@@ -29290,7 +29289,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780060987527
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2699
@@ -29356,7 +29355,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780440500704
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2705
@@ -29411,7 +29410,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 99455014007
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2710
@@ -29444,7 +29443,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 1
-    idcode: 9781892389381
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2713
@@ -29587,7 +29586,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780156005524
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2726
@@ -29983,7 +29982,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780345389978
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2762
@@ -30038,7 +30037,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780345405500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2767
@@ -30071,7 +30070,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 37145009995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2770
@@ -30093,7 +30092,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780802135810
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2772
@@ -30170,7 +30169,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780312157036
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2779
@@ -30764,7 +30763,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 2800553561212
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2833
@@ -31105,7 +31104,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780066238500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2864
@@ -31875,7 +31874,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780061056611
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2934
@@ -31952,7 +31951,7 @@
     bought: 1984-01-01
     last: 2011-01-02
     checkouts: 1
-    idcode: 9780552134651
+    idcode: 0
     bloan_id:
 - model: library.book
   id: 2941
@@ -32029,7 +32028,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780061052514
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 2948
@@ -32645,7 +32644,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 45863577405
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3004
@@ -32947,9 +32946,9 @@
 - model: library.book
   id: 3031
   fields:
-    title: unknown
+    title: Reenter Fu Manchu
     author:  Rohmer, Sax
-    isbn: a Reenter Fu Manchu
+    isbn: 0
     bought: 1984-01-01
     last: 
     checkouts: 0
@@ -33129,7 +33128,7 @@
     bought: 1984-01-01
     last: 2013-07-22
     checkouts: 1
-    idcode: 9780439064866
+    idcode: 0
     bloan_id:
 - model: library.book
   id: 3048
@@ -33151,7 +33150,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780590353403
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3050
@@ -33382,7 +33381,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 2800441009932
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3071
@@ -33393,7 +33392,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780439358064
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3072
@@ -33404,7 +33403,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780894808531
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3073
@@ -33415,7 +33414,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780439139595
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3074
@@ -33426,7 +33425,7 @@
     bought: 1984-01-01
     last: 2013-08-10
     checkouts: 2
-    idcode: 9780439136358
+    idcode: 0
     bloan_id:
 - model: library.book
   id: 3075
@@ -33437,7 +33436,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780156030083
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3076
@@ -33800,7 +33799,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71125007991
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3109
@@ -33910,7 +33909,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780586066546
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3119
@@ -33983,7 +33982,7 @@
   fields:
     title: Immortality, Inc.
     author: Sheckley, Robert
-    isbn: tImmortality, Inc.
+    isbn: 0
     bought: 1984-01-01
     last: 
     checkouts: 0
@@ -34009,7 +34008,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 18874123022
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3128
@@ -34680,7 +34679,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780441068265
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3189
@@ -34922,7 +34921,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 71162002751
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3211
@@ -35120,7 +35119,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 2800553269446
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3229
@@ -37562,7 +37561,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 76714003958
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3451
@@ -37573,7 +37572,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 18926003951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3452
@@ -38200,7 +38199,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780330300759
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3509
@@ -38585,7 +38584,7 @@
     bought: 1984-01-01
     last: 
     checkouts: 0
-    idcode: 9780345331601
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3544
@@ -42226,7 +42225,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780385267267
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3875
@@ -42787,7 +42786,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780312859305
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3926
@@ -42897,7 +42896,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780688141530
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3936
@@ -43040,7 +43039,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780671793777
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3949
@@ -43117,7 +43116,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780688082116
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3956
@@ -43150,7 +43149,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780743435871
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3959
@@ -43205,7 +43204,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 48228134367
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3964
@@ -43249,7 +43248,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780385233132
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3968
@@ -43425,7 +43424,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780671878771
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3984
@@ -43480,7 +43479,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780385263436
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 3989
@@ -43887,7 +43886,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 76714020009
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4026
@@ -43909,7 +43908,7 @@
     bought: 
     last: 
     checkouts: 0
-    idcode: 9780760704479
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4028
@@ -44360,7 +44359,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 76714022003
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4069
@@ -44404,7 +44403,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780553095418
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4073
@@ -45482,7 +45481,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 37145004990
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4171
@@ -47198,7 +47197,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 99455013000
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4327
@@ -47715,7 +47714,7 @@
     bought: 2008-01-12
     last: 
     checkouts: 0
-    idcode: 978312868604
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4374
@@ -48551,7 +48550,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780312851514
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4450
@@ -48562,7 +48561,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 2800446520722
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4451
@@ -48628,7 +48627,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780345351739
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4457
@@ -48650,7 +48649,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780345362995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4459
@@ -48661,7 +48660,7 @@
     bought: 2008-1-12
     last: 
     checkouts: 0
-    idcode: 9780345362988
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4460
@@ -49409,7 +49408,7 @@
     bought: 2008-1-19
     last: 
     checkouts: 0
-    idcode: 9780345330048
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4529
@@ -49420,7 +49419,7 @@
     bought: 2008-1-19
     last: 
     checkouts: 0
-    idcode: 48228219927
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4530
@@ -49431,7 +49430,7 @@
     bought: 2008-1-19
     last: 
     checkouts: 0
-    idcode: 9780345330062
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4531
@@ -49453,7 +49452,7 @@
     bought: 2008-1-19
     last: 
     checkouts: 0
-    idcode: 9780345356918
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4533
@@ -49475,7 +49474,7 @@
     bought: 2008-1-19
     last: 
     checkouts: 0
-    idcode: 9780345374745
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4535
@@ -49508,7 +49507,7 @@
     bought: 2008-1-19
     last: 
     checkouts: 0
-    idcode: 9781841490250
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4538
@@ -49948,7 +49947,7 @@
     bought: 2008-1-19
     last: 
     checkouts: 0
-    idcode: 2800671526094
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4578
@@ -50531,7 +50530,7 @@
     bought: 2008-1-19
     last: 
     checkouts: 0
-    idcode: 00463630951
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4631
@@ -50553,7 +50552,7 @@
     bought: 2008-1-19
     last: 
     checkouts: 0
-    idcode: 71001004953
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4633
@@ -52588,7 +52587,7 @@
     bought: 2008-1-20
     last: 
     checkouts: 0
-    idcode: 72742006503
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 4818
@@ -55591,7 +55590,7 @@
     bought: 2008-1-26
     last: 
     checkouts: 0
-    idcode: 76783005952
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 5091
@@ -57351,7 +57350,7 @@
     bought: 2008-1-26
     last: 
     checkouts: 0
-    idcode: 9780151004492
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 5251
@@ -57505,7 +57504,7 @@
     bought: 2008-1-26
     last: 
     checkouts: 0
-    idcode: 9780312873875
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 5265
@@ -57516,7 +57515,7 @@
     bought: 2008-1-26
     last: 
     checkouts: 0
-    idcode: 9780743435406
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 5266
@@ -57637,7 +57636,7 @@
     bought: 2008-1-26
     last: 
     checkouts: 0
-    idcode: 9780679409502
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 5277
@@ -57714,7 +57713,7 @@
     bought: 2008-1-26
     last: 
     checkouts: 0
-    idcode: 9780380979011
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 5284
@@ -60970,7 +60969,7 @@
     bought: 2008-2-2
     last: 
     checkouts: 0
-    idcode: 71009002500
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 5580
@@ -61751,7 +61750,7 @@
     bought: 2008-2-2
     last: 
     checkouts: 0
-    idcode: 9780385247214
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 5651
@@ -70694,7 +70693,7 @@
     bought: 2008-2-2
     last: 
     checkouts: 0
-    idcode: 9780345330055
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 6465
@@ -76887,7 +76886,7 @@
     bought: 2008-2-2
     last: 
     checkouts: 0
-    idcode: 9780385247924
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 7031
@@ -81738,7 +81737,7 @@
     bought: 2008-2-9
     last: 
     checkouts: 0
-    idcode: 9780312850128
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 7473
@@ -81771,7 +81770,7 @@
     bought: 2008-2-9
     last: 
     checkouts: 0
-    idcode: 9780451452849
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 7476
@@ -81782,7 +81781,7 @@
     bought: 2008-2-9
     last: 
     checkouts: 0
-    idcode: 9780553372106
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 7477
@@ -81804,7 +81803,7 @@
     bought: 2008-2-9
     last: 
     checkouts: 0
-    idcode: 71831003959
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 7479
@@ -84191,7 +84190,7 @@
     bought: 2008-2-9
     last: 
     checkouts: 0
-    idcode: 2800345370541
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 7696
@@ -84290,7 +84289,7 @@
     bought: 2008-2-9
     last: 
     checkouts: 0
-    idcode: 2800812538948
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 7705
@@ -85115,7 +85114,7 @@
     bought: 2008-2-9
     last: 
     checkouts: 0
-    idcode: 2800345362867
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 7780
@@ -93365,7 +93364,7 @@
     bought: 2008-2-23
     last: 
     checkouts: 0
-    idcode: 111650501120
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 8530
@@ -100218,7 +100217,7 @@
     bought: 
     last: 
     checkouts: 
-    idcode: 2800765301538
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 9154
@@ -100273,7 +100272,7 @@
     bought: 2008-2-26
     last: 
     checkouts: 0
-    idcode: 9780679433101
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 9159
@@ -101318,7 +101317,7 @@
     bought: 2008-3-1
     last: 
     checkouts: 0
-    idcode: 9780671720216
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 9254
@@ -107412,7 +107411,7 @@
     bought: 2008-3-26
     last: 
     checkouts: 0
-    idcode: 2800671720652
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 9808
@@ -108446,7 +108445,7 @@
     bought: 
     last: 
     checkouts: 
-    idcode: 3209752046
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 9902
@@ -109920,7 +109919,7 @@
     bought: 2008-3-28
     last: 
     checkouts: 0
-    idcode: 9780441878833
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 10036
@@ -110393,7 +110392,7 @@
     bought: 2008-3-28
     last: 
     checkouts: 0
-    idcode: 140195270
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 10079
@@ -110404,7 +110403,7 @@
     bought: 2008-3-28
     last: 
     checkouts: 0
-    idcode: 553290266
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 10080
@@ -110426,7 +110425,7 @@
     bought: 2008-3-28
     last: 
     checkouts: 0
-    idcode: 380977281
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 10082
@@ -110514,7 +110513,7 @@
     bought: 2008-3-29
     last: 
     checkouts: 0
-    idcode: 9780553263282
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 10090
@@ -121591,7 +121590,7 @@
     bought: 
     last: 
     checkouts: 
-    idcode: 44903007995
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 11099
@@ -128906,7 +128905,7 @@
     bought: 2010-07-22
     last: 
     checkouts: 0
-    idcode: 71125006994
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 11764
@@ -129489,7 +129488,7 @@
     bought: 2010-07-22
     last: 
     checkouts: 0
-    idcode: 70993005993
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 11817
@@ -133493,7 +133492,7 @@
     bought: 2012-06-09
     last: 
     checkouts: 0
-    idcode: 9780765316516
+    idcode: 0
     bloan_id: 
 - model: library.book
   id: 12181

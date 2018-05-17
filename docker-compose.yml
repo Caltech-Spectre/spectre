@@ -1,0 +1,43 @@
+version: "2"
+services:
+    spectre:
+        image: "spectre:latest"
+        container_name: "spectre"
+        restart: always
+        hostname: "spectre"
+        command: /usr/bin/supervisord
+        links:
+          - mysql:db
+        ports:
+            - "80:80"
+            - "443:443"
+            - "8042:8042"
+        env_file:
+            - "/etc/context.d/spectre.env"
+        volumes:
+            - .:/spectre
+        depends_on:
+            - mysql
+
+    mysql:
+        image: mysql:5
+        container_name: "db"
+        restart: always
+        ports:
+            - "3306:3306"
+        env_file:
+            - "/etc/context.d/spectre.env"
+        volumes:
+            - ./etc/sql:/docker-entrypoint-initdb.d
+            - ../docker-mysql-data/spectre:/var/lib/mysql
+
+    phpmyadmin:
+      image: phpmyadmin/phpmyadmin
+      container_name: phpmyadmin
+      restart: always
+      ports:
+       - 8980:80
+      volumes:
+       - /sessions
+      links:
+       - mysql:db
