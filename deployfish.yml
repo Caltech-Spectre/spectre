@@ -57,5 +57,5 @@ services:
       - PROXY_HOSTNAME=spectre.caltech.edu
       - DB_USER=spectre_u
       - DB_HOST=${terraform.rds_address}
-      - DB_DB=spectre
+      - DB_NAME=spectre
       - DB_PASSWORD=${env.MYSQL_PASSWORD}
