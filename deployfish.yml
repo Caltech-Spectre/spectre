@@ -33,7 +33,7 @@ services:
     task_role_arn: ${terraform.task_role_arn}
     containers:
       - name: spectre
-        image: ${terraform.ecr_repository_url}:0.1.1
+        image: ${terraform.ecr_repository_url}:0.1.2
         cpu: 128
         memory: 512
         command: /usr/bin/supervisord
@@ -51,7 +51,7 @@ services:
         logging:
           driver: fluentd
           options:
-            fluentd-address: 127.0.1.1:24224
+            fluentd-address: 127.0.1.2:24224
             tag: spectre
     config:
       - PROXY_HOSTNAME=spectre.caltech.edu
