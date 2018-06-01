@@ -1,11 +1,33 @@
 {% extends 'library/base.html' %}
 {% block content %}
-		
+
+{% for message in messages %}
+    <div class="alert
+        {% if message.tags %}
+            {% if message.tags == 'error' %}
+                alert-danger
+            {% else %}
+                alert-{{ message.tags }}
+            {% endif %}
+        alert-dismissible
+        {% endif %}">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        {% if message.tags %}<strong>{{ message.tags|capfirst }}:</strong>{% endif %}
+        {{ message }}
+    </div>
+{% endfor %}
+
     <div class="spectresubsubtitle">
         <form action="{% url 'login' %}" method="POST" name="loginForm">
+            {% csrf_token %}
             Slide your Caltech ID card or type your ID number:
             <!-- the joinus button: actually just a link to the join us page -->
-            <input name="filter" autocomplete="off"/>
+            <!--<input name="filter" autocomplete="off"/>-->
+
+            {% for field in form.visible_fields %}
+                {{field}}
+            {% endfor %}
+
             <input type="Submit" value="Login" class="btn"/>
             <input name="linkonly" class="btn" type="button" value="Create Account" onClick="parent.location='/user/add/'" />
         </form>

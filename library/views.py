@@ -5,8 +5,10 @@ from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt, csrf_protect
 from django.db.models import Q
 from django.core.paginator import Paginator
+from django.contrib import messages
 
 from .models import Book, User, Loan, History
+from .forms import LoginForm
 
 #returns a list of books which contain each of the words (substrings separated by spaces) in filterText in either their spectre_id, idcode, isbn, author, or title
 def filterBooks(filterText):
@@ -81,8 +83,27 @@ def logout(request):
     return redirect('home')
 
 #loginPage is the main database page and the page you have to log in to to reach it.
-@csrf_exempt
+# @csrf_exempt
 def loginPage(request):
+    if request.method == 'POST':
+        form = LoginForm(request.POST)
+        if form.is_valid():
+            caltech_id = form.cleaned_data['caltech_id']
+            users = User.objects.filter(cardnum=caltech_id)
+            if users.count() >= 1:
+                user = users[0]
+                request.session.set_expiry(300)
+                request.session['userid'] = user.id
+                return redirect('user')
+            messages.warning(request, "User not found.")
+
+        else:
+            messages.warning(request, 'Please input a Caltech UID.')
+    else:
+        form = LoginForm()
+
+    return render(request, 'library/login.html', {'form':form})
+
     #first, if someone has sent in a spectreUserId, then you need to be sent the database browsing page, or userPage
     try:
         filter = request.POST['filter']
