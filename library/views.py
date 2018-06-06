@@ -8,7 +8,7 @@ from django.core.paginator import Paginator
 from django.contrib import messages
 
 from .models import Book, User, Loan, History
-from .forms import LoginForm
+from .forms import LoginForm, SearchForm
 
 #returns a list of books which contain each of the words (substrings separated by spaces) in filterText in either their spectre_id, idcode, isbn, author, or title
 def filterBooks(filterText):
@@ -46,13 +46,18 @@ def mainPage(request):
     context = {}
     return render(request, 'library/mainPageTemplate.html', context)
 
-@csrf_exempt
+# @csrf_exempt
 def showUser(request):
     userid = request.session.get('userid', None)
     f = request.GET.get('filter', None)
+    if f:
+        form = SearchForm(request.GET)
+    else:
+        form = SearchForm(None)
     if userid:
-        if f:
-            books = Book.objects.filter(Q(id__icontains=f) | Q(idcode__icontains=f) | Q(isbn__icontains=f) | Q(author__icontains=f) | Q(title__icontains=f))
+        if f and form.is_valid():
+            filter = form.cleaned_data['filter']
+            books = Book.objects.filter(Q(id__icontains=filter) | Q(idcode__icontains=filter) | Q(isbn__icontains=filter) | Q(author__icontains=filter) | Q(title__icontains=filter))
         else:
             books = Book.objects.all()
         p = Paginator(books, 25)
@@ -65,7 +70,7 @@ def showUser(request):
         return render(request, 'library/user.html',
                       {'userid': userid, 'username': User.objects.get(id=userid).name,
                        'count': count, 'books':p.get_page(page), 'page':page,
-                       'start':start, 'end':end, 'filter': f})
+                       'start':start, 'end':end, 'filter':f, 'form':form})
     else:
         return redirect('/login/')
 
@@ -103,44 +108,6 @@ def loginPage(request):
         form = LoginForm()
 
     return render(request, 'library/login.html', {'form':form})
-
-    #first, if someone has sent in a spectreUserId, then you need to be sent the database browsing page, or userPage
-    try:
-        filter = request.POST['filter']
-        users = filterUsers(filter)
-        if users.count() == 1:
-            user = users[0]
-            request.session.set_expiry(300)
-            request.session['userid'] = user.id
-        return redirect('user')
-        # return userPage(request, int(spectreUserId))
-    except KeyError:
-        #next, if someone has sent a filter, and it narrows the possible users down to one, sent it userPage with that user
-        try:
-            filterText = request.POST['filter']
-            filteredUsers = filterUsers(filterText)
-            if (len(filteredUsers) == 1):
-                return userPage(request, filteredUsers[0].id)
-            else:
-                #if it doesn't narrow it down to one user, it sends you a version of the login page with a list of possible, clickable identities. These are sent as comma sepereated lists, because javascript handles the formatting
-                filteredUsers = filterUsersWithoutCardnum(filterText)
-                if (len(filteredUsers) > 0):
-                    usernames = ""
-                    userids = ""
-                    firstEntry = True
-                    for user in filteredUsers:
-                        if firstEntry:
-                            usernames = usernames+"\""+user.name+"\""
-                            userids = userids+str(user.id)
-                            firstEntry = False
-                        else:
-                            usernames = usernames+","+"\""+user.name+"\""
-                            userids = userids + ","+str(user.id)
-                    return render(request, 'library/login.html', {'usernames':usernames, 'userids':userids})
-        except KeyError:
-            pass
-        #when nothing has been sent up, just send down the userpage with nothing special
-        return render(request, 'library/login.html', {'usernames':"", 'userids':""})
 
 
 """

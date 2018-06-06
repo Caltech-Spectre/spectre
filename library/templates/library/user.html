@@ -8,11 +8,14 @@
         </span>
         <form action="/user/" method="get" style="margin:0;padding:0;">
             <!-- if you press return in the search box, it is just like clicking the search button -->
-            <input class="widex" type="search" name='filter' id="txt1"
-                   {% if filter %}
-                    value="{{ filter }}"
-                   {%  endif %}
-            />
+            <!--<input class="widex" type="search" name='filter' id="txt1"-->
+                   <!--{% if filter %}-->
+                    <!--value="{{ filter }}"-->
+                   <!--{%  endif %}-->
+            <!--/>-->
+            {% for field in form.visible_fields %}
+                {{field}}
+            {% endfor %}
             <script type="text/javascript">
                 document.getElementById('txt1').focus();
             </script>
