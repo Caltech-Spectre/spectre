@@ -19,8 +19,8 @@ RUN yum -y install epel-release && yum -y makecache fast && yum -y update && yum
     python36-devel \
     && yum -y clean all
 
-RUN ln -s /usr/bin/python3.6 /usr/bin/python3
-RUN ln -s /usr/bin/pip3.6 /usr/bin/pip3
+# RUN ln -s /usr/bin/python3.6 /usr/bin/python3
+# RUN ln -s /usr/bin/pip3.6 /usr/bin/pip3
 
 # set our timezone to pacific time
 WORKDIR /etc
